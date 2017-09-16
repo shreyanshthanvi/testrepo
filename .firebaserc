@@ -1,6 +1,5 @@
 {
   "projects": {
-    "default": "shreyansh-agiletimes",
-    "shreyansh": "shreyansh-agiletimes"
+    "default": "testerepo-pwa"
   }
 }
