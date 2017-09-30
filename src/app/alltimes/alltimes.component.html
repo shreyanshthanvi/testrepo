@@ -44,5 +44,12 @@
     </p-dataTable>
   
     <p-contextMenu #tableContextMenu [model]="contextMenu"></p-contextMenu>
-  
+    <button pButton type="button" label="Add Time" (click)="onAddTime($event)"></button>
+    <p-dialog header="Add Timesheet" [(visible)]="display">
+      <p>User</p>
+      <p>Project</p>
+      <p>Category</p>
+      <p>Start Time</p>
+      <p>End Time</p>
+    </p-dialog>
   </div>

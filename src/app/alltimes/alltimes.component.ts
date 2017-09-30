@@ -61,4 +61,9 @@ export class AlltimesComponent implements OnInit {
 
   onEditComplete(editInfo) { }
 
+  display: boolean = false;
+  onAddTime(eve) {
+    const a = eve;
+    this.display = true;
+  }
 }
