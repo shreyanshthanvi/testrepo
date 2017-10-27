@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "testerepo-pwa"
+    "default": "testerepo-pwa",
+    "a": "testerepo-pwa"
   }
 }
